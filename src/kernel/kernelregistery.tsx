@@ -1,6 +1,7 @@
 import MedicalRecordsApp from "@/apps/medical_records/medical_records_app";
 import React from "react";
 import TestingApp from "@/apps/testingapp/testingapp";
+import Something from "@/apps/something/something";
 
 export interface AppDetails {
     id: number;
@@ -27,5 +28,14 @@ export const apps: AppCollection = {
     shortWindow: false,
     isHidden: false,
     appCode: TestingApp
+  },
+  2: {
+    tempId:2,
+    name: "Spelling Mistakes",
+    icon: "/report_upload.svg",
+    multipleWindowsAllowed: true,
+    shortWindow: false,
+    isHidden: false,
+    appCode: Something
   }
 };
