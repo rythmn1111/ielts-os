@@ -1,0 +1,35 @@
+{
+  "name": "ostest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.5",
+    "@reduxjs/toolkit": "^2.2.6",
+    "dayjs": "^1.11.11",
+    "framer-motion": "^11.3.17",
+    "next": "^14.2.13",
+    "re-resizable": "^6.9.17",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-draggable": "^4.4.6",
+    "react-live-clock": "^6.1.23-beta",
+    "react-redux": "^9.1.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "sass": "^1.77.8",
+    "typescript": "^5"
+  }
+}
